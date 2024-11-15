@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.29)
-project(kmeansFINAL)
+project(kmeansSEQFINAL)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -g -O3 -march=native -fopenmp -ftree-vectorize")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
-add_executable(kmeansFINAL
-    kmeansFINAL.cpp)
+add_executable(kmeansSEQFINAL
+    kmeansSEQFINAL.cpp)

@@ -3,7 +3,6 @@
 #include <cmath>
 #include <vector>
 #include <chrono>
-#include <omp.h>
 
 struct Cluster {
     std::vector<double> centroidXVect;

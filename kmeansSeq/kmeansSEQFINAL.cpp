@@ -124,7 +124,6 @@ int main() {
                 maxConvergenceAchieved = actDelta <= acceptedDelta;
             }
         }
-        /*END OF PARALLEL REGION*/
         if (!maxConvergenceAchieved) {
             double xSum = 0.0;
             double ySum = 0.0;
